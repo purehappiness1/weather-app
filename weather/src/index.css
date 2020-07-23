@@ -22,3 +22,10 @@ code {
   flex-direction: row;
   justify-content: space-evenly;
 }
+
+.justify {
+  display: flex;
+  justify-content: center;
+}
+
+/* <Route exact path="/contact/:street" render={props => <Contact {...props} address={'Moscow'} />} />  */
